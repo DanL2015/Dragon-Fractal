@@ -47,13 +47,6 @@ int main()
 			coords.push_back(copy[i]);
 		}
 
-		for (int i = 0; i < coords.size(); i++)
-		{
-			cout << coords[i].x << " " << coords[i].y << endl;
-		}
-
-		cout << endl;
-
 		if (Mouse::isButtonPressed(Mouse::Right))
 		{
 			//Zoom out
